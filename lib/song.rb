@@ -23,7 +23,7 @@ class Song
     @@name 
   end
   
-  def selfartist
+  def artists
     @@artists.uniq
   end
   
