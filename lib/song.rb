@@ -19,10 +19,6 @@ class Song
     @@count
   end
   
-  def name=(name)
-    @@name 
-  end
-  
   def artists
     @@artists.uniq
   end
